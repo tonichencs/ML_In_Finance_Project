@@ -106,13 +106,3 @@ def load_earning_calls_full_text(parquet_pattern, text_column):
         df_list.append(df)
     
     return pd.concat(df_list, ignore_index=True)
-    
-def rep_10_k_process(df):
-    df['Date'] = pd.to_datetime(df['filing_date'])
-    df.drop(columns=['filing_date', 'report_date', 'submission_type', 'report_year'], inplace=True)
-    df.index = df['Date']
-    df.drop('Date', axis=1, inplace=True) 
-    df = df.sort_values(by='Date', ascending=True)
-
-    return df
-
