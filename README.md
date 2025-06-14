@@ -21,3 +21,4 @@ https://drive.google.com/drive/folders/1Q6B3UmaYNPtOmFOPgpPUoJfheKvJZmmj?usp=sha
 Finally, run the Experiment.ipynb for experiments.
 
 ## Extension
+The Folder Extension contains all the code needed for the extension part. First run the factor_process.ipynb and combine_Dataset.ipynb to get the return factors and financial factors, then run final_data.ipynb to get the final dataset using for training, and finally run DNN.ipynb to train the original model. Run gplearn_ml_factor.ipynb to generate genetic algorithm and machine learning factors, then run extra_DNN.ipynb to train the model with new features. CNN_LSTM.ipynb contains  dimension upgrading process and model training.
