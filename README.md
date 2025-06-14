@@ -14,5 +14,8 @@ Run the handle_target.py locally or handle_target.ipynb notebook.
 ## Merging datasets
 Run the Final_Data.ipynb, this will merge the earning calls, Compustat and Target Dataset according to datetime in the way that avoids lookahead bias.
 
+## Line to all the processed and merged dataset
+https://drive.google.com/drive/folders/1Q6B3UmaYNPtOmFOPgpPUoJfheKvJZmmj?usp=sharing
+
 ## Run experiment
 Finally, run the Experiment.ipynb for experiments.
